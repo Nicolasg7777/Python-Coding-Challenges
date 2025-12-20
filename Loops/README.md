@@ -35,6 +35,30 @@ If you don't update the loop variable inside the loop, you'll create an infinite
 
 ---
 
+### 2. 🥳 New Year Countdown (MEDIUM - 10 XP)
+**File:** `02_new_year_countdown.py`
+
+Learn for loops and the range() function by creating a countdown from 10 to 1. This introduces a new type of loop that's perfect when you know exactly how many times to repeat!
+
+**Key Concepts:**
+- How for loops differ from while loops
+- Understanding `range(start, stop, step)`
+- The step parameter for counting backwards
+- **Critical:** Indentation determines if code is INSIDE or OUTSIDE the loop
+- Why code after the loop runs only once
+- Automatic loop variable updates (no manual updating needed!)
+
+**Important Notes:**
+- For loops are best when you know HOW MANY times to repeat
+- The stop value in range() is NOT included
+- Use negative step to count down: `range(10, 0, -1)`
+- Indentation is critical: wrong indentation = code runs wrong number of times
+
+**Common Mistake to Avoid:**
+Indenting the "Happy New Year!" message makes it print 10 times (once per loop). Keep it at the same level as `for` to print it only once after the loop ends!
+
+---
+
 ## How to Use This Folder
 
 1. Read the problem description at the top of each file
@@ -48,13 +72,15 @@ If you don't update the loop variable inside the loop, you'll create an infinite
 ## Progression
 
 - Start with **Are We There Yet?** to understand while loops and conditions
-- (More loop challenges coming soon!)
+- Move to **New Year Countdown** to learn for loops and range()
 
 ---
 
 ## Loop Concepts Checklist
 
 As you work through these challenges, make sure you understand:
+
+**While Loop Concepts:**
 - [ ] How to write a while loop with proper syntax
 - [ ] How conditions work (True/False evaluation)
 - [ ] Why you need to initialize a variable before the loop
@@ -62,6 +88,16 @@ As you work through these challenges, make sure you understand:
 - [ ] How the condition is re-checked after each iteration
 - [ ] How to avoid infinite loops
 - [ ] The difference between `==` (equal) and `!=` (not equal)
+
+**For Loop Concepts:**
+- [ ] How to write a for loop with proper syntax
+- [ ] What `range(start, stop, step)` does
+- [ ] Why the stop value is NOT included
+- [ ] How to use negative step to count down
+- [ ] The difference between while loops and for loops
+- [ ] When to use for loops vs while loops
+- [ ] Why indentation matters (inside vs outside the loop)
+- [ ] How the loop variable is automatically updated
 
 ---
 
