@@ -145,35 +145,22 @@
 
 import random
 
-# Assign random values to die1 and die2 (initial roll)
-# Each die is a random integer from 1 to 6
+# assign value die1 and die 2 to a random dice roll
 die1 = random.randint(1, 6)
 die2 = random.randint(1, 6)
-
-# Add the two dice together to get the total
-# Snake eyes is when total equals 2 (1 + 1)
+# add the random die rolls to a total value
 total = die1 + die2
 
-# While loop: Keep rolling as long as total is NOT 2
-# This condition is checked before each iteration
+# while loop, while total is not equal to 2 give me Nope!
 while total != 2:
-    # Print "Nope" because we didn't get snake eyes yet
-    print("Nope")
+  print("Nope")
+  # assign value die1 and die 2 to a random dice roll
+  die1 = random.randint(1, 6)
+  die2 = random.randint(1, 6)
+  # add the random die rolls to a total value
+  total = die1 + die2
 
-    # RE-ROLL die1: Get a new random value
-    # This is CRITICAL - without this, die1 never changes
-    die1 = random.randint(1, 6)
-
-    # RE-ROLL die2: Get a new random value
-    # This is CRITICAL - without this, die2 never changes
-    die2 = random.randint(1, 6)
-
-    # RECALCULATE total with the new dice values
-    # This is CRITICAL - total must be recalculated each iteration
-    # Otherwise the condition never changes and we loop forever!
-    total = die1 + die2
-
-# After the loop exits (when total == 2), print the celebration message
+# once the answer is 2 exit the while loop and give me snake eyes!
 print("Snake eyes!")
 
 # ===================================================================
