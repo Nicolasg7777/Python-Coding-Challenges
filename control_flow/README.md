@@ -50,6 +50,23 @@ Learn how to use logical operators (`or` and `and`) to combine multiple conditio
 
 ---
 
+### 4. 🧑‍🚀 Planet Weights (HARD - 15 XP)
+**File:** `04_planet_weights.py`
+
+Create a weight conversion program that calculates how much you'd weigh on different planets based on their gravity. This challenge brings together everything you've learned!
+
+**Key Concepts:**
+- Decimal input with `float()`
+- Multiple if/elif/else branches
+- Mathematical calculations with user input
+- F-strings for formatted output
+- **Important:** Calculate the result in a variable FIRST, then use it in the print statement
+- Relative gravity: how strong gravity is on each planet compared to Earth
+
+**Challenge:** Try refactoring this to use a dictionary to eliminate repetitive if/elif blocks!
+
+---
+
 ## How to Use This Folder
 
 1. Read the problem description at the top of each file
@@ -63,6 +80,7 @@ Learn how to use logical operators (`or` and `and`) to combine multiple conditio
 - Start with **High School Grades** to learn basic if/elif/else
 - Move to **Snapple Facts** to learn about the `random` module and multiple conditions
 - Progress to **Seasons of the Year** to master logical operators (`or` and `and`)
+- Challenge yourself with **Planet Weights** to combine all concepts and work with float calculations
 
 ---
 
