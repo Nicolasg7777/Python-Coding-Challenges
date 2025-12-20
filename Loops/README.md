@@ -59,6 +59,30 @@ Indenting the "Happy New Year!" message makes it print 10 times (once per loop).
 
 ---
 
+### 3. 🎲 Snake Eyes (MEDIUM - 10 XP)
+**File:** `03_snake_eyes.py`
+
+Master the critical skill of updating variables inside while loops by simulating dice rolls until you get "snake eyes" (two 1s). This challenge teaches THE MOST IMPORTANT while loop concept!
+
+**Key Concepts:**
+- Simulating random dice rolls with `random.randint()`
+- **CRITICAL:** Updating variables inside the while loop
+- Why you must re-roll the dice inside the loop
+- Understanding why forgetting to update causes infinite loops
+- Breaking down complex logic into smaller steps
+
+**Important Notes:**
+- Snake eyes = rolling two 1s = total of 2
+- You MUST re-roll the dice inside the while loop
+- You MUST recalculate the total after each roll
+- Without these updates, you get an infinite loop!
+- The dice are rolled BEFORE the loop, then re-rolled inside the loop
+
+**The Critical Lesson:**
+If you don't update the variables that affect the condition inside the loop, the condition never changes, and you loop forever. This is the #1 cause of infinite loops!
+
+---
+
 ## How to Use This Folder
 
 1. Read the problem description at the top of each file
@@ -73,6 +97,7 @@ Indenting the "Happy New Year!" message makes it print 10 times (once per loop).
 
 - Start with **Are We There Yet?** to understand while loops and conditions
 - Move to **New Year Countdown** to learn for loops and range()
+- Master **Snake Eyes** to understand the critical importance of updating variables inside loops
 
 ---
 
