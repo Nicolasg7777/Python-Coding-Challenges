@@ -34,6 +34,22 @@ Learn how to use the `random` module to generate random numbers and use them in 
 
 ---
 
+### 3. 🗓️ Seasons of the Year (MEDIUM - 10 XP)
+**File:** `03_seasons_of_the_year.py`
+
+Learn how to use logical operators (`or` and `and`) to combine multiple conditions in a single if statement.
+
+**Key Concepts:**
+- Logical operators: `or` and `and`
+- When to use `or`: Check if ANY condition is true
+- When to use `and`: Check if ALL conditions are true
+- Combining multiple comparisons with logical operators
+- Handling emoji characters in Python strings
+
+**Important:** Use `or` when checking multiple values (month is 1 OR 2 OR 3), not `and`! A month can't be both 1 AND 2 at the same time.
+
+---
+
 ## How to Use This Folder
 
 1. Read the problem description at the top of each file
@@ -46,6 +62,7 @@ Learn how to use the `random` module to generate random numbers and use them in 
 
 - Start with **High School Grades** to learn basic if/elif/else
 - Move to **Snapple Facts** to learn about the `random` module and multiple conditions
+- Progress to **Seasons of the Year** to master logical operators (`or` and `and`)
 
 ---
 
