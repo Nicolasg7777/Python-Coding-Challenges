@@ -8,8 +8,13 @@ Comprehensive interview preparation materials and resources for coding interview
 
 ```
 interview_source/
-└── 0. algorithmic_thinking/
-    ├── big_o_notation.md
+├── 0. algorithmic_thinking/
+│   ├── big_o_notation.md
+│   ├── data_structures.md
+│   ├── logarithms.md
+│   └── README.md
+└── 1. Array and string manipulation/
+    ├── array.md
     └── README.md
 ```
 
@@ -23,6 +28,13 @@ Each numbered folder represents a major topic area with multiple readings and re
 Foundational concepts for designing and analyzing algorithms.
 
 - **Big O Notation** - Understanding algorithm complexity and efficiency
+- **Data Structures** - How data is stored and accessed in memory
+- **Logarithms** - How to think about O(log n) operations
+
+### 1. Array and String Manipulation
+Practical techniques for working with arrays and strings in interviews.
+
+- **Array** - The fundamental data structure and its performance characteristics
 
 ---
 
