@@ -9,10 +9,6 @@ Big O notation is the language we use for talking about how long an algorithm ta
 
 It's like math except it's an awesome, not-boring kind of math where you get to wave your hands through the details and just focus on what's basically happening.
 
----
-
-## The Core Idea
-
 With big O notation we express the runtime in terms of **how quickly it grows relative to the input, as the input gets arbitrarily large.**
 
 Let's break that down:
@@ -255,7 +251,7 @@ Even though the input has n items, we only allocate one additional variable (`la
 
 ---
 
-## Time vs Space Tradeoff
+## Space vs Time Tradeoff
 
 Sometimes there's a tradeoff between saving time and saving space. You have to decide which one you're optimizing for.
 
