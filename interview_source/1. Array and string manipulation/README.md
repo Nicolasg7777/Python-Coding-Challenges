@@ -58,20 +58,54 @@ Slicing looks simple but carries a hidden cost. In interviews, always be aware o
 
 ---
 
+### 3. In-Place Algorithm
+Understanding the tradeoff between space efficiency and code safety.
+
+**File:** `in_place_algorithm.md`
+
+**Topics Covered:**
+- What in-place algorithms are and how they work
+- How in-place differs from out-of-place
+- How values are passed (primitives vs data structures)
+- O(1) space complexity of in-place algorithms
+- Side effects and why they can be dangerous
+- When to use in-place vs out-of-place
+- Common in-place patterns (reverse, remove, partition)
+- In-place in interviews
+
+**Key Concepts:**
+- In-place modifies the input data structure directly
+- In-place uses O(1) additional space (not O(n))
+- Out-of-place creates a new copy and is safer
+- Primitives are copied; data structures are passed by reference
+- Side effects can cause confusion and bugs
+- Space vs safety tradeoff
+- Interview best practices for in-place vs out-of-place
+
+**The Big Idea:**
+In-place algorithms save space but destroy the original input. Choose based on your constraints: space-constrained systems need in-place, but safe and clear code usually wins otherwise.
+
+---
+
 ## How to Use This Section
 
 1. **Start with Array** - Master the fundamental data structure and its tradeoffs
 2. **Learn about Array Slicing** - Understand the hidden costs of a seemingly simple operation
-3. **Work through examples** - Follow code examples showing when slicing is efficient vs wasteful
-4. **Internalize the patterns** - Recognize slicing in real interview problems
-5. **Apply alternatives** - Use index arithmetic and pointers instead of slicing when appropriate
-6. **Compare with alternatives** - Understand why you might choose linked lists instead of arrays
+3. **Study In-Place Algorithms** - Understand the space vs safety tradeoff
+4. **Work through examples** - Follow code examples for each technique
+5. **Internalize the patterns** - Recognize these patterns in real interview problems
+6. **Apply wisely** - Use each technique when appropriate for your constraints
 
 ---
 
 ## Learning Path
 
-This section will build on your understanding of Big O notation and data structures from the previous section.
+This section builds on your understanding of Big O notation and data structures from the previous section.
+
+You've now learned:
+- Array fundamentals and operations
+- Hidden costs of slicing
+- Space vs safety tradeoffs in algorithms
 
 Future readings will cover:
 - String operations and manipulation
