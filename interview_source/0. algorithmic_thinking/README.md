@@ -54,20 +54,44 @@ Every data structure makes a choice: you get one advantage but lose another. Und
 
 ---
 
+### 3. Logarithms
+How to think about logarithms, especially in programming interviews and algorithm design.
+
+**File:** `logarithms.md`
+
+**Topics Covered:**
+- What a logarithm actually means
+- Logarithm rules and properties
+- Where logarithms appear in algorithms
+- Binary search - O(log n) analysis
+- Sorting - merge sort O(n log n)
+- Binary trees and height calculation
+- Logarithm notation conventions
+- Identifying logarithmic patterns
+
+**Key Concepts:**
+- Logarithms measure "how many times must we divide?"
+- log₂(n) appears whenever we divide by 2 repeatedly
+- Binary search, merge sort, and tree operations use logarithms
+- Why O(log n) is much faster than O(n) for large inputs
+- Understanding the relationship between exponents and logarithms
+
+---
+
 ## How to Use This Section
 
 1. **Start with Big O Notation** - You need this vocabulary to discuss complexity
 2. **Study Data Structures** - Understand how data actually sits in memory
-3. **Work through examples** - Follow the visual examples and implementations
-4. **Internalize the tradeoffs** - This is the most important part
-5. **Reference when solving** - Use this knowledge when designing solutions
+3. **Learn Logarithms** - Understand O(log n) operations and why they're fast
+4. **Work through examples** - Follow the visual examples and implementations
+5. **Internalize the patterns** - Recognize when logarithms appear in real algorithms
+6. **Reference when solving** - Use this knowledge when designing solutions
 
 ---
 
 ## Learning Path
 
 This is just the beginning! Future readings will build on these foundations:
-- Logarithms (O(log n) operations)
 - Trees and Graphs
 - More complex data structures
 - Algorithm design patterns
