@@ -36,6 +36,38 @@ Merge overlapping meeting time ranges from a calendar system. Handle edge cases 
 
 ---
 
+### 2. Reverse String in Place
+
+**File:** `reverse_string_in_place.md`
+
+**Difficulty:** Easy
+
+**Topics:** In-place algorithms, two-pointer technique, string manipulation
+
+**Description:**
+Write a function that reverses a list of characters in place. Learn the two-pointer technique and why in-place algorithms are useful.
+
+**Key Concepts:**
+- In-place modification using swapping
+- Two-pointer technique from opposite ends
+- O(1) space complexity with in-place approach
+- Why mutable types (lists) are needed instead of strings
+- Swapping without temporary variables
+
+**What You'll Learn:**
+- The two-pointer pattern for in-place problems
+- How to swap elements efficiently
+- Recognizing when O(1) space is critical
+- Understanding mutable vs immutable data types
+- Why reversing is O(n) even though we visit each element
+
+**Difficulty Progression:**
+- **Basic:** Implement the basic reverse function
+- **Intermediate:** Handle all edge cases correctly
+- **Advanced:** Solve bonus problems (reverse only vowels, reverse a string, etc.)
+
+---
+
 ## How to Use This Section
 
 1. **Read the problem carefully** - Understand all constraints and edge cases
@@ -54,11 +86,13 @@ Merge overlapping meeting time ranges from a calendar system. Handle edge cases 
 Start with easier problems and work up:
 
 **Currently Available:**
-1. **Merging Meeting Times** - Sorting + Greedy (Medium)
+1. **Reverse String in Place** - Two-pointer technique (Easy)
+2. **Merging Meeting Times** - Sorting + Greedy (Medium)
 
 **Coming Soon:**
-- String manipulation problems
-- Two-pointer problems
+- String reversal variations (reverse only vowels, reverse words)
+- Palindrome checking
+- Two-pointer advanced problems
 - Sliding window problems
 - Array transformation problems
 - More complex interview patterns
