@@ -106,6 +106,30 @@ Instead of using nested loops or complex logic, Python lets you multiply strings
 
 ---
 
+### 5. 2️⃣ Sum of Squares (HARD - 15 XP)
+**File:** `05_sum_of_squares.py`
+
+Master the critical concept of **accumulation** by calculating the sum of squares from 1 to a user-provided number. This challenge teaches you how variables persist and grow across loop iterations.
+
+**Key Concepts:**
+- **CRITICAL:** Accumulation - variables carry their values between iterations
+- The power operator `**` (NOT `^`)
+- Understanding how `total` grows with each iteration
+- Variable persistence across loop iterations
+- Building mathematical calculations with loops
+
+**Important Notes:**
+- `total = 0` happens ONCE before the loop (not every iteration!)
+- `total` CARRIES OVER from one iteration to the next - it doesn't reset!
+- Use `**` for exponentiation: `i**2` (NOT `i^2`)
+- Each iteration adds to the growing total
+- Example: if total is 14 and you add 16, total becomes 30 (and stays 30 for next iteration)
+
+**The Critical Lesson:**
+Variables don't reset! When you do `total = total + i**2`, the new value of `total` persists into the next iteration. This is called **accumulation** and it's fundamental to programming!
+
+---
+
 ## How to Use This Folder
 
 1. Read the problem description at the top of each file
@@ -122,6 +146,7 @@ Instead of using nested loops or complex logic, Python lets you multiply strings
 - Move to **New Year Countdown** to learn for loops and range()
 - Master **Snake Eyes** to understand the critical importance of updating variables inside loops
 - Challenge yourself with **Asterisks** to create patterns using string multiplication
+- Master **Sum of Squares** to understand accumulation and variable persistence (HARD challenge!)
 
 ---
 
