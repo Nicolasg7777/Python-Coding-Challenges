@@ -40,6 +40,45 @@ Hash functions create a "fingerprint" of data. They're fast, deterministic, and 
 
 ---
 
+### 2. Hash Table
+
+Understand the data structure that enables fast key-value lookups.
+
+**File:** `hash_table.md`
+
+**Topics Covered:**
+- What hash tables are and how they work
+- Built on arrays with hash functions
+- Converting keys to array indices
+- Hash collisions and resolution strategies
+- Separate chaining, linear probing, double hashing
+- Load factors and when to resize
+- When operations cost O(n) time
+- Sets (hash tables without values)
+- Comparison with other data structures
+
+**Key Concepts:**
+- Fast O(1) average lookups by key
+- Built using arrays + hash functions
+- Collisions are inevitable with finite space
+- Worst case O(n) with many collisions
+- Unordered: keys don't have guaranteed order
+- Single-directional: key→value O(1), value→key O(n)
+- Not cache-friendly due to linked list collisions
+
+**Use Cases:**
+- Counting occurrences of items
+- Finding pairs or complements (two-sum)
+- Deduplication and removing duplicates
+- Tracking visited nodes in graphs
+- Caching and memoization
+- Building inverse mappings
+
+**The Big Idea:**
+Hash tables are one of the most important data structures because they provide O(1) average lookups. They're everywhere in real systems: caches, databases, compilers, and more.
+
+---
+
 ## How to Use This Section
 
 1. **Start with Hash Functions** - Understand the fundamentals
@@ -122,14 +161,17 @@ Future readings in this section will cover:
 
 ---
 
-## Next Reading: Hash Tables
+## Next Steps
 
-Once you understand hash functions, you'll be ready to learn about:
-- How hash tables use hash functions
-- Collision resolution strategies
-- Load factors and resizing
-- When to use hash tables vs alternatives
-- Performance characteristics
+You've now learned:
+1. **How hash functions work** - Converting data to fixed-size fingerprints
+2. **How hash tables work** - Building fast data structures on arrays and hashing
 
-Ready to continue your interview preparation journey!
+You're ready to:
+- Use hash tables confidently in interviews
+- Solve problems involving counting, deduplication, and pair finding
+- Understand when to use hash tables vs other data structures
+- Implement hash table patterns in your code
+
+Ready to tackle some practice problems that use these concepts!
 
