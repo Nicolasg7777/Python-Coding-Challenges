@@ -77,6 +77,7 @@ Real coding interview problems to apply what you've learned in the readings.
 - **Cafe Order Checker** - Multiple pointers + sequence validation (Medium)
 - **Inflight Entertainment** - Hash tables and sets for two-sum pattern (Medium)
 - **Permutation Palindrome** - Character frequency and parity tracking with sets (Medium)
+- **Word Cloud Data** - Text processing and word frequency counting (Hard)
 
 ### Coming Soon
 - More hash table problems (word pairs, anagrams, etc.)

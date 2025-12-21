@@ -68,6 +68,38 @@ Check whether any permutation of a string is a palindrome. Learn to think about 
 
 ---
 
+### 3. Word Cloud Data
+
+**File:** `word_cloud_data.md`
+
+**Difficulty:** Hard
+
+**Topics:** Hash tables, text processing, character classification, edge cases
+
+**Description:**
+Build a word frequency dictionary from text, handling punctuation, capitalization, hyphenated words, and special cases. This is a practical real-world problem.
+
+**Key Concepts:**
+- Using dictionaries for frequency counting
+- Custom word splitting (avoiding O(n²) string concatenation)
+- Character classification (letters, punctuation, hyphens, apostrophes)
+- Case normalization strategies and tradeoffs
+- Handling edge cases: hyphens, apostrophes, ellipses, em dashes, end of string
+
+**What You'll Learn:**
+- How to build practical text processing solutions
+- Performance pitfalls in string operations (concatenation)
+- Making reasonable decisions with imperfect solutions
+- Handling special cases systematically
+- The difference between "perfect" and "reasonable" algorithms
+
+**Difficulty Progression:**
+- **Basic:** Simple word splitting and frequency counting
+- **Intermediate:** Handle punctuation and capitalization
+- **Advanced:** Handle hyphenated words, contractions, edge cases
+
+---
+
 ## How to Use This Section
 
 1. **Read the readings first** - Understand hash functions and hash tables

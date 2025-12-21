@@ -145,6 +145,38 @@ Check whether any permutation of a string is a palindrome. Learn to think about 
 
 ---
 
+### 3. Word Cloud Data
+
+**File:** `Practice/word_cloud_data.md`
+
+**Difficulty:** Hard
+
+**Topics:** Hash tables, text processing, character classification, edge cases
+
+**Description:**
+Build a word frequency dictionary from text, handling punctuation, capitalization, hyphenated words, and contractions.
+
+**Key Concepts:**
+- Using dictionaries for frequency counting
+- Custom word splitting to avoid O(n²) string concatenation
+- Character classification (letters, punctuation, hyphens, apostrophes)
+- Case normalization: "only uppercase if always uppercase" strategy
+- Edge cases: hyphens, apostrophes, ellipses, em dashes, string end
+
+**What You'll Learn:**
+- Practical text processing with dictionaries
+- Performance pitfalls (string concatenation in loops)
+- Making reasonable decisions when perfect solutions are impossible
+- Systematic edge case handling
+- Why open-ended problems separate good from great engineers
+
+**Difficulty Progression:**
+- **Basic:** Simple word splitting and counting
+- **Intermediate:** Handle punctuation and capitalization
+- **Advanced:** Handle hyphenated words, contractions, special cases
+
+---
+
 ## How to Use This Section
 
 1. **Start with Hash Functions** - Understand the fundamentals
@@ -244,6 +276,7 @@ You're ready to:
 Head to the **Practice** folder in this section to apply what you've learned:
 - **Inflight Entertainment** - Classic two-sum problem using sets for O(n) solution
 - **Permutation Palindrome** - Check if string permutation is palindrome using parity tracking
+- **Word Cloud Data** - Build word frequency dictionary with practical text processing
 
-These problems will help you recognize hash table patterns and master this crucial interview topic!
+These problems progress from foundational (two-sum) to intermediate (frequency analysis) to hard (practical text processing). Together they cover the most common hash table interview patterns!
 
