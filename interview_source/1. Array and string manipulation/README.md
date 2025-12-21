@@ -87,14 +87,47 @@ In-place algorithms save space but destroy the original input. Choose based on y
 
 ---
 
+### 4. Dynamic Array
+Understanding automatic resizing and amortized analysis.
+
+**File:** `dynamic_array.md`
+
+**Topics Covered:**
+- What dynamic arrays are and how they solve fixed-size limitations
+- Size vs capacity and the end_index concept
+- The doubling strategy for expansion
+- Why we double instead of adding 1 slot
+- The cost of copying elements during expansion
+- Amortized analysis and why appends are O(1) on average
+- Worst case vs average case for appends
+- Dynamic arrays in different languages (Python, Java, JavaScript, C++)
+- When to use dynamic arrays vs other structures
+- Interview implications and common questions
+
+**Key Concepts:**
+- Dynamic arrays are fixed arrays that automatically expand
+- O(1) amortized append cost due to doubling strategy
+- O(n) worst case when doubling happens
+- Size is how many elements are in the array
+- Capacity is the total underlying array size
+- Doubling cost + doubling frequency balance out to O(1) average
+- Most languages use doubling (not adding 1)
+- Cache-friendly due to contiguous memory layout
+
+**The Big Idea:**
+Dynamic arrays make a clever tradeoff: most appends are O(1) fast, but occasional appends are O(n) slow (when doubling happens). On average, they're O(1) amortized.
+
+---
+
 ## How to Use This Section
 
 1. **Start with Array** - Master the fundamental data structure and its tradeoffs
 2. **Learn about Array Slicing** - Understand the hidden costs of a seemingly simple operation
 3. **Study In-Place Algorithms** - Understand the space vs safety tradeoff
-4. **Work through examples** - Follow code examples for each technique
-5. **Internalize the patterns** - Recognize these patterns in real interview problems
-6. **Apply wisely** - Use each technique when appropriate for your constraints
+4. **Master Dynamic Arrays** - Understand amortized analysis and automatic expansion
+5. **Work through examples** - Follow code examples for each technique
+6. **Internalize the patterns** - Recognize these patterns in real interview problems
+7. **Apply wisely** - Use each technique when appropriate for your constraints
 
 ---
 
@@ -106,6 +139,7 @@ You've now learned:
 - Array fundamentals and operations
 - Hidden costs of slicing
 - Space vs safety tradeoffs in algorithms
+- Amortized analysis and dynamic expansion
 
 Future readings will cover:
 - String operations and manipulation
