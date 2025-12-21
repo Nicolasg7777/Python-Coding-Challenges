@@ -83,6 +83,29 @@ If you don't update the variables that affect the condition inside the loop, the
 
 ---
 
+### 4. ✳️ Asterisks (MEDIUM - 10 XP)
+**File:** `04_asterisks.py`
+
+Create a beautiful staircase pattern using for loops and a powerful Python feature: string multiplication! This challenge teaches you to use all three parameters of range() and demonstrates an elegant way to build patterns.
+
+**Key Concepts:**
+- All three parameters of `range(start, stop, step)`: start, stop, and step
+- Understanding why stop value is NOT included
+- **Powerful technique:** String multiplication with `*` operator
+- Creating dynamic output based on the loop variable
+- Building visual patterns with loops
+
+**Important Notes:**
+- `range(1, 25, 1)` explicitly shows you understand all three parameters
+- `"* " * n` repeats the string `"* "` n times (clever!)
+- The stop value is 25 because we want to go UP TO 24
+- Each line has more asterisks: line 1 has 1, line 2 has 2, etc.
+
+**The Power of String Multiplication:**
+Instead of using nested loops or complex logic, Python lets you multiply strings! `"* " * 5` gives you `"* * * * * "` instantly. This makes the code clean and elegant!
+
+---
+
 ## How to Use This Folder
 
 1. Read the problem description at the top of each file
@@ -98,6 +121,7 @@ If you don't update the variables that affect the condition inside the loop, the
 - Start with **Are We There Yet?** to understand while loops and conditions
 - Move to **New Year Countdown** to learn for loops and range()
 - Master **Snake Eyes** to understand the critical importance of updating variables inside loops
+- Challenge yourself with **Asterisks** to create patterns using string multiplication
 
 ---
 
