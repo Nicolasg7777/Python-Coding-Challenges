@@ -199,8 +199,9 @@ You've now learned:
 
 Head to the **Practice** folder in this section to apply what you've learned:
 - **Apple Stocks** - Maximize profit by tracking minimum price (Medium)
+- **Highest Product of 3** - Handle negatives and track multiple values (Medium)
 
-These problems will help you recognize greedy patterns and master this optimization technique!
+These problems progress from single-variable tracking (Apple Stocks) to multi-variable tracking (Highest Product). Together they show how greedy algorithms scale!
 
 ---
 

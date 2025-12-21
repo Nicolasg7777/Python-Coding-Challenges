@@ -36,6 +36,36 @@ Find the maximum profit from buying and selling Apple stock once, given a list o
 - **Intermediate:** Handle negative profits correctly
 - **Advanced:** Solve bonus problems (multiple transactions, fees, hold time)
 
+### 2. Highest Product of 3
+
+**File:** `highest_product_of_3.md`
+
+**Difficulty:** Medium
+
+**Topics:** Greedy algorithms, handling negatives, multi-variable tracking
+
+**Description:**
+Find the highest product you can get from three integers in a list, considering that two negative numbers create a positive product.
+
+**Key Concepts:**
+- Two negative numbers multiply to positive
+- Need to track highest/lowest products of 2 numbers
+- Track highest/lowest single numbers
+- Update order matters (can't multiply current by itself)
+- O(n) time, O(1) space solution
+
+**What You'll Learn:**
+- How to track multiple values simultaneously
+- Why sorting approach O(n log n) is slower than greedy O(n)
+- Handling negative numbers in product calculations
+- Careful update ordering in loops
+- How greedy scales to more complex problems
+
+**Difficulty Progression:**
+- **Basic:** Understand why negatives matter, implement greedy
+- **Intermediate:** Handle all edge cases correctly
+- **Advanced:** Solve bonus problems (product of 4, k, overflow handling)
+
 ---
 
 ## How to Use This Section
