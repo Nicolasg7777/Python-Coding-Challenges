@@ -75,7 +75,8 @@ Real coding interview problems to apply what you've learned in the readings.
 - **Merging Meeting Times** - Array manipulation, sorting, and greedy algorithms (Medium)
 - **Merge Sorted Arrays** - Two-pointer merging (Medium)
 - **Cafe Order Checker** - Multiple pointers + sequence validation (Medium)
-- **Inflight Entertainment** - Hash tables and sets for O(n) solution (Medium)
+- **Inflight Entertainment** - Hash tables and sets for two-sum pattern (Medium)
+- **Permutation Palindrome** - Character frequency and parity tracking with sets (Medium)
 
 ### Coming Soon
 - More hash table problems (word pairs, anagrams, etc.)
