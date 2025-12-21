@@ -101,6 +101,41 @@ Reverse the order of words in a message (a list of characters) in place. The cha
 
 ---
 
+### 4. Merge Sorted Arrays
+
+**File:** `merge_sorted_arrays.md`
+
+**Difficulty:** Medium
+
+**Topics:** Two-pointer technique, sorted arrays, efficient merging
+
+**Description:**
+Merge two sorted lists of order IDs into one sorted list. The key is using the fact that both input lists are already sorted to achieve O(n) time instead of O(n log n).
+
+**Key Concepts:**
+- Two-pointer technique for sorted arrays
+- Why naive approach (concatenate + sort) is O(n log n)
+- Taking advantage of input properties (already sorted)
+- Handling exhausted lists gracefully
+- Short-circuit evaluation for safe comparisons
+- Edge cases: empty lists, different lengths, duplicates
+- O(n) time, O(n) space complexity
+
+**What You'll Learn:**
+- How to recognize when you can do better than sorting
+- Two-pointer algorithm for merged lists
+- Safe index bounds checking
+- Short-circuit evaluation to prevent crashes
+- How merge operation is used in merge sort
+- Real-world applications (databases, streams, external sort)
+
+**Difficulty Progression:**
+- **Basic:** Implement the two-pointer merge algorithm
+- **Intermediate:** Handle all edge cases correctly
+- **Advanced:** Solve bonus problems (merge multiple lists, merge in-place, linked lists)
+
+---
+
 ## How to Use This Section
 
 1. **Read the problem carefully** - Understand all constraints and edge cases
@@ -122,12 +157,12 @@ Start with easier problems and work up:
 1. **Reverse String in Place** - Two-pointer technique (Easy)
 2. **Reverse Words** - Multi-phase approach (Medium)
 3. **Merging Meeting Times** - Sorting + Greedy (Medium)
+4. **Merge Sorted Arrays** - Two-pointer merging (Medium)
 
 **Coming Soon:**
 - Palindrome checking
 - String reversal variations (reverse only vowels, multiple spaces)
 - Container with Most Water (two-pointer advanced)
-- Merge Sorted Arrays
 - Sliding window problems
 - More complex interview patterns
 
