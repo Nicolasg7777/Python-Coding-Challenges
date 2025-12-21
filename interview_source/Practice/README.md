@@ -136,6 +136,41 @@ Merge two sorted lists of order IDs into one sorted list. The key is using the f
 
 ---
 
+### 5. Cafe Order Checker
+
+**File:** `cafe_order_checker.md`
+
+**Difficulty:** Medium
+
+**Topics:** Multiple pointers, sequence validation, hidden space costs
+
+**Description:**
+Check if a cake cafe is serving orders first-come-first-served by validating that served orders match the sequence of take-out and dine-in orders.
+
+**Key Concepts:**
+- Multiple pointer tracking in different sequences
+- Index-based traversal vs slicing
+- Hidden space costs in recursion
+- Call stack overhead from recursive solutions
+- Validating edge cases (unserved orders, leftover orders)
+- O(n) time, O(1) space optimization
+- Evolution from recursive to iterative
+
+**What You'll Learn:**
+- How to track position in multiple input streams
+- Why array slicing costs O(n) time and space
+- How to identify and avoid hidden recursion costs
+- Pattern recognition for sequence validation
+- Importance of checking boundary conditions
+- Converting recursive to iterative solutions
+
+**Difficulty Progression:**
+- **Basic:** Understand the problem and validate sequences
+- **Intermediate:** Handle edge cases (empty, unserved orders, bounds)
+- **Advanced:** Solve bonus problems (duplicates, error reporting, reverse traversal)
+
+---
+
 ## How to Use This Section
 
 1. **Read the problem carefully** - Understand all constraints and edge cases
@@ -158,9 +193,10 @@ Start with easier problems and work up:
 2. **Reverse Words** - Multi-phase approach (Medium)
 3. **Merging Meeting Times** - Sorting + Greedy (Medium)
 4. **Merge Sorted Arrays** - Two-pointer merging (Medium)
+5. **Cafe Order Checker** - Multiple pointers + sequence validation (Medium)
 
 **Coming Soon:**
-- Palindrome checking
+- Palindrome checking (two-pointer validation)
 - String reversal variations (reverse only vowels, multiple spaces)
 - Container with Most Water (two-pointer advanced)
 - Sliding window problems
