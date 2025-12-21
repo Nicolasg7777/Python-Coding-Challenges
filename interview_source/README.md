@@ -21,6 +21,10 @@ interview_source/
 │   └── README.md
 ├── 2. Hashing and hash tables/
 │   ├── hashing_and_hash_functions.md
+│   ├── hash_table.md
+│   ├── Practice/
+│   │   ├── inflight_entertainment.md
+│   │   └── README.md
 │   └── README.md
 ├── Practice/
 │   ├── reverse_string_in_place.md
@@ -57,6 +61,7 @@ Practical techniques for working with arrays and strings in interviews.
 Building fast data structures using hash functions.
 
 - **Hashing and Hash Functions** - How hashing works and why it's powerful
+- **Hash Table** - The data structure that enables O(1) lookups
 
 ---
 
@@ -70,12 +75,13 @@ Real coding interview problems to apply what you've learned in the readings.
 - **Merging Meeting Times** - Array manipulation, sorting, and greedy algorithms (Medium)
 - **Merge Sorted Arrays** - Two-pointer merging (Medium)
 - **Cafe Order Checker** - Multiple pointers + sequence validation (Medium)
+- **Inflight Entertainment** - Hash tables and sets for O(n) solution (Medium)
 
 ### Coming Soon
+- More hash table problems (word pairs, anagrams, etc.)
 - Palindrome checking and validation
 - String manipulation problems
 - Sliding window problems
-- Hash table implementation problems
 - More complex interview patterns
 
 ---
