@@ -43,6 +43,39 @@ Greedy algorithms are elegant and efficient, but they require careful analysis t
 
 ---
 
+## Practice Problems
+
+### 1. Apple Stocks
+
+**File:** `practice/apple_stocks.md`
+
+**Difficulty:** Medium
+
+**Topics:** Greedy algorithms, optimization, profit maximization
+
+**Description:**
+Find the maximum profit from buying and selling Apple stock once, given a list of prices throughout the day.
+
+**Key Concepts:**
+- Greedy choice: track minimum price so far
+- Calculate profit at each step
+- Handle negative profits when prices only decrease
+- Why max_price - min_price doesn't work
+- O(n) time, O(1) space solution
+
+**What You'll Learn:**
+- How greedy works for optimization problems
+- Tracking exactly what you need to solve the problem
+- Why one pass through the data is sufficient
+- How to think about greedy choices
+
+**Difficulty Progression:**
+- **Basic:** Implement the greedy solution
+- **Intermediate:** Handle negative profits correctly
+- **Advanced:** Solve bonus problems (multiple transactions, fees, hold constraints)
+
+---
+
 ## How to Use This Section
 
 1. **Understand the fundamentals** - Read the greedy algorithms reading
@@ -162,21 +195,20 @@ You've now learned:
 3. **When greedy fails** - Classic counterexamples
 4. **How to approach problems** - The five-step problem-solving process
 
-You're ready to:
-- Tackle greedy algorithm practice problems
-- Identify when greedy is appropriate
-- Prove or disprove greedy correctness
-- Implement efficient greedy solutions
+### Practice Problems
 
-Ready to practice with real interview problems!
+Head to the **Practice** folder in this section to apply what you've learned:
+- **Apple Stocks** - Maximize profit by tracking minimum price (Medium)
+
+These problems will help you recognize greedy patterns and master this optimization technique!
 
 ---
 
-## Common Greedy Interview Problems
+## Coming Soon
 
-Coming soon:
-- Apple Stocks - Maximum profit from stock prices
-- Product of Array Except Self - Multiply without division
-- In-place Shuffle - Randomly permute array
-- Merge Sorted Arrays - Efficient merging
+More greedy algorithm practice problems:
+- Highest Product of 3 - Find maximum product of 3 numbers
+- Meeting Room Scheduling - Maximum non-overlapping meetings
+- Optimal Load Balancing - Distribute work to minimize latency
+- Interval Scheduling with Weights - Maximize value
 - And many more!

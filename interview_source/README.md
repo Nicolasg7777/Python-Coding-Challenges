@@ -31,6 +31,9 @@ interview_source/
 ├── 3. Greedy algorithms/
 │   ├── reading/
 │   │   └── greedy_algorithms.md
+│   ├── practice/
+│   │   ├── apple_stocks.md
+│   │   └── README.md
 │   └── README.md
 ├── Practice/
 │   ├── reverse_string_in_place.md
@@ -89,6 +92,7 @@ Real coding interview problems to apply what you've learned in the readings.
 - **Inflight Entertainment** - Hash tables and sets for two-sum pattern (Medium)
 - **Permutation Palindrome** - Character frequency and parity tracking with sets (Medium)
 - **Word Cloud Data** - Text processing and word frequency counting (Hard)
+- **Apple Stocks** - Greedy profit maximization (Medium)
 
 ### Coming Soon
 - More hash table problems (word pairs, anagrams, etc.)
