@@ -13,12 +13,19 @@ interview_source/
 │   ├── data_structures.md
 │   ├── logarithms.md
 │   └── README.md
-└── 1. Array and string manipulation/
-    ├── array.md
+├── 1. Array and string manipulation/
+│   ├── array.md
+│   ├── array_slicing.md
+│   ├── in_place_algorithm.md
+│   ├── dynamic_array.md
+│   └── README.md
+└── Practice/
+    ├── merging_meeting_times.md
     └── README.md
 ```
 
-Each numbered folder represents a major topic area with multiple readings and resources.
+**Numbered folders** (0, 1, 2...) contain readings organized by topic.
+**Practice folder** contains real coding interview problems to apply what you've learned.
 
 ---
 
@@ -35,30 +42,64 @@ Foundational concepts for designing and analyzing algorithms.
 Practical techniques for working with arrays and strings in interviews.
 
 - **Array** - The fundamental data structure and its performance characteristics
+- **Array Slicing** - Understanding the hidden costs of array slicing
+- **In-Place Algorithm** - Space vs safety tradeoffs in algorithm design
+- **Dynamic Array** - Automatic resizing and amortized analysis
+
+---
+
+## Practice Problems
+
+Real coding interview problems to apply what you've learned in the readings.
+
+### Current Problems
+- **Merging Meeting Times** - Array manipulation, sorting, and greedy algorithms (Medium)
+
+### Coming Soon
+- String manipulation problems
+- Two-pointer problems
+- Sliding window problems
+- More complex interview patterns
 
 ---
 
 ## How to Use This Section
 
-1. Navigate to each topic folder
-2. Read through the materials in order
-3. Study the examples and practice problems
-4. Apply these concepts when solving coding challenges
+1. **Start with Readings** - Navigate to each numbered topic folder
+2. **Read in Order** - Read through the materials in order within each section
+3. **Understand Deeply** - Don't just memorize; understand the concepts
+4. **Practice Problems** - Apply your knowledge to real interview problems in the Practice folder
+5. **Test Thoroughly** - Use provided test cases and think about edge cases
+6. **Review Solutions** - Study the provided solutions and alternative approaches
+7. **Iterate** - Work through problems multiple times as you learn
 
 ---
 
 ## Learning Path
 
-**Start Here:** 0. Algorithmic Thinking
-- Master Big O notation first - it's the foundation for everything else
+**Phase 1: Fundamentals (Section 0)**
+- Master Big O notation - it's the foundation for everything
 - Understand how to analyze code efficiency
-- Learn to compare different approaches objectively
+- Learn fundamental data structures
+- Understand logarithmic operations
+
+**Phase 2: Array Techniques (Section 1)**
+- Learn array fundamentals and operations
+- Understand hidden costs of common operations
+- Master space vs safety tradeoffs
+- Study amortized analysis
+
+**Phase 3: Practice (Practice Folder)**
+- Apply your knowledge to real interview problems
+- Practice explaining your approach
+- Solve edge cases correctly
+- Optimize for time and space
 
 **Next Topics Coming Soon:**
-- Data Structures
-- Algorithm Patterns
-- Problem-Solving Strategies
-- Real Interview Questions
+- String manipulation and techniques
+- Two-pointer and sliding window patterns
+- More complex algorithm patterns
+- Advanced data structure problems
 
 ---
 
