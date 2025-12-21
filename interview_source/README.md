@@ -19,9 +19,16 @@ interview_source/
 │   ├── in_place_algorithm.md
 │   ├── dynamic_array.md
 │   └── README.md
-└── Practice/
-    ├── merging_meeting_times.md
-    └── README.md
+├── 2. Hashing and hash tables/
+│   ├── hashing_and_hash_functions.md
+│   └── README.md
+├── Practice/
+│   ├── reverse_string_in_place.md
+│   ├── reverse_words.md
+│   ├── merging_meeting_times.md
+│   ├── merge_sorted_arrays.md
+│   ├── cafe_order_checker.md
+│   └── README.md
 ```
 
 **Numbered folders** (0, 1, 2...) contain readings organized by topic.
@@ -46,6 +53,11 @@ Practical techniques for working with arrays and strings in interviews.
 - **In-Place Algorithm** - Space vs safety tradeoffs in algorithm design
 - **Dynamic Array** - Automatic resizing and amortized analysis
 
+### 2. Hashing and Hash Tables
+Building fast data structures using hash functions.
+
+- **Hashing and Hash Functions** - How hashing works and why it's powerful
+
 ---
 
 ## Practice Problems
@@ -53,12 +65,17 @@ Practical techniques for working with arrays and strings in interviews.
 Real coding interview problems to apply what you've learned in the readings.
 
 ### Current Problems
+- **Reverse String in Place** - Two-pointer technique (Easy)
+- **Reverse Words** - Multi-phase approach (Medium)
 - **Merging Meeting Times** - Array manipulation, sorting, and greedy algorithms (Medium)
+- **Merge Sorted Arrays** - Two-pointer merging (Medium)
+- **Cafe Order Checker** - Multiple pointers + sequence validation (Medium)
 
 ### Coming Soon
+- Palindrome checking and validation
 - String manipulation problems
-- Two-pointer problems
 - Sliding window problems
+- Hash table implementation problems
 - More complex interview patterns
 
 ---
@@ -89,7 +106,13 @@ Real coding interview problems to apply what you've learned in the readings.
 - Master space vs safety tradeoffs
 - Study amortized analysis
 
-**Phase 3: Practice (Practice Folder)**
+**Phase 3: Hashing and Hash Tables (Section 2)**
+- Understand hash functions and how they work
+- Learn the fundamentals of hash-based data structures
+- See why hashing enables O(1) lookups
+- Understand collision strategies and performance
+
+**Phase 4: Practice (Practice Folder)**
 - Apply your knowledge to real interview problems
 - Practice explaining your approach
 - Solve edge cases correctly
@@ -100,6 +123,7 @@ Real coding interview problems to apply what you've learned in the readings.
 - Two-pointer and sliding window patterns
 - More complex algorithm patterns
 - Advanced data structure problems
+- Hash table implementation details
 
 ---
 
