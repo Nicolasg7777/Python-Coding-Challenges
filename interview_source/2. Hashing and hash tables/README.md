@@ -113,6 +113,38 @@ Build an inflight entertainment system that finds two movies whose combined runt
 
 ---
 
+### 2. Permutation Palindrome
+
+**File:** `Practice/permutation_palindrome.md`
+
+**Difficulty:** Medium
+
+**Topics:** Hash tables, sets, character frequency, parity tracking
+
+**Description:**
+Check whether any permutation of a string is a palindrome. Learn to think about what data really matters.
+
+**Key Concepts:**
+- "Permutation is palindrome" vs "string is palindrome"
+- Palindrome requirement: at most one character with odd count
+- Using sets to track parity (odd/even), not exact counts
+- Why we only care about odd/even, not absolute counts
+- O(n) time, O(k) space solution
+
+**What You'll Learn:**
+- How to analyze frequency/count problems deeply
+- Asking "what data do I really need to track?"
+- Why simple insights (odd/even matters, not count) transform solutions
+- Comparing brute force O(n! × n) vs optimal O(n)
+- The power of choosing the right data structure
+
+**Difficulty Progression:**
+- **Basic:** Implement the set-based solution
+- **Intermediate:** Handle edge cases (empty, single character)
+- **Advanced:** Solve bonus problems (construct palindrome, extended characters)
+
+---
+
 ## How to Use This Section
 
 1. **Start with Hash Functions** - Understand the fundamentals
@@ -211,6 +243,7 @@ You're ready to:
 
 Head to the **Practice** folder in this section to apply what you've learned:
 - **Inflight Entertainment** - Classic two-sum problem using sets for O(n) solution
+- **Permutation Palindrome** - Check if string permutation is palindrome using parity tracking
 
 These problems will help you recognize hash table patterns and master this crucial interview topic!
 

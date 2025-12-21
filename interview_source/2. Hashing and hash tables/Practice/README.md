@@ -36,6 +36,36 @@ Build an inflight entertainment system that finds two movies whose combined runt
 - **Intermediate:** Handle all edge cases (empty list, single movie, duplicates)
 - **Advanced:** Solve bonus problems (minimize wasted time, any number of movies, sorted input)
 
+### 2. Permutation Palindrome
+
+**File:** `permutation_palindrome.md`
+
+**Difficulty:** Medium
+
+**Topics:** Hash tables, sets, character frequency, parity tracking
+
+**Description:**
+Check whether any permutation of a string is a palindrome. Learn to think about what data really matters (odd vs even counts, not exact counts).
+
+**Key Concepts:**
+- Understanding "permutation is palindrome" vs "string is palindrome"
+- Palindrome requirement: characters must pair up (even count), except possibly one middle character
+- Using sets to track characters with odd counts
+- Why we don't need exact counts, only parity
+- O(n) time, O(k) space solution where k = unique characters
+
+**What You'll Learn:**
+- How to analyze frequency/count problems
+- Asking "what data do I really need to track?"
+- Why sets are perfect for parity tracking
+- Difference between brute force O(n! × n) and optimal O(n)
+- How a simple insight (only odd/even matters) transforms the solution
+
+**Difficulty Progression:**
+- **Basic:** Implement the set-based solution
+- **Intermediate:** Handle all edge cases (empty, single char, etc.)
+- **Advanced:** Solve bonus problems (construct palindrome, extended character sets)
+
 ---
 
 ## How to Use This Section
