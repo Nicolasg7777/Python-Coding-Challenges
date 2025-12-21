@@ -68,6 +68,39 @@ Write a function that reverses a list of characters in place. Learn the two-poin
 
 ---
 
+### 3. Reverse Words
+
+**File:** `reverse_words.md`
+
+**Difficulty:** Medium
+
+**Topics:** In-place algorithms, multi-phase approach, string manipulation
+
+**Description:**
+Reverse the order of words in a message (a list of characters) in place. The challenge is doing this in O(n) time while avoiding the O(n²) pitfall of swapping words with different lengths.
+
+**Key Concepts:**
+- Two-phase approach (reverse all, then each word)
+- Why naive word-swapping is O(n²)
+- How "scooting over" causes performance problems
+- Finding word boundaries (spaces)
+- O(n) time, O(1) space in-place algorithm
+- Helper functions for code clarity
+
+**What You'll Learn:**
+- How to avoid the O(n²) trap of naive approaches
+- Problem-solving: solve simpler version first
+- Two-phase algorithms
+- Importance of understanding worst-case complexity
+- Finding word boundaries while traversing
+
+**Difficulty Progression:**
+- **Basic:** Implement the two-phase algorithm
+- **Intermediate:** Handle all edge cases correctly
+- **Advanced:** Solve bonus problems (punctuation, multiple spaces, reverse k groups)
+
+---
+
 ## How to Use This Section
 
 1. **Read the problem carefully** - Understand all constraints and edge cases
@@ -87,14 +120,15 @@ Start with easier problems and work up:
 
 **Currently Available:**
 1. **Reverse String in Place** - Two-pointer technique (Easy)
-2. **Merging Meeting Times** - Sorting + Greedy (Medium)
+2. **Reverse Words** - Multi-phase approach (Medium)
+3. **Merging Meeting Times** - Sorting + Greedy (Medium)
 
 **Coming Soon:**
-- String reversal variations (reverse only vowels, reverse words)
 - Palindrome checking
-- Two-pointer advanced problems
+- String reversal variations (reverse only vowels, multiple spaces)
+- Container with Most Water (two-pointer advanced)
+- Merge Sorted Arrays
 - Sliding window problems
-- Array transformation problems
 - More complex interview patterns
 
 ---
