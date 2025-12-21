@@ -24,7 +24,13 @@ interview_source/
 │   ├── hash_table.md
 │   ├── Practice/
 │   │   ├── inflight_entertainment.md
+│   │   ├── permutation_palindrome.md
+│   │   ├── word_cloud_data.md
 │   │   └── README.md
+│   └── README.md
+├── 3. Greedy algorithms/
+│   ├── reading/
+│   │   └── greedy_algorithms.md
 │   └── README.md
 ├── Practice/
 │   ├── reverse_string_in_place.md
@@ -62,6 +68,11 @@ Building fast data structures using hash functions.
 
 - **Hashing and Hash Functions** - How hashing works and why it's powerful
 - **Hash Table** - The data structure that enables O(1) lookups
+
+### 3. Greedy Algorithms
+Optimization through locally optimal choices.
+
+- **Greedy Algorithms** - When and how to use greedy strategies for optimization
 
 ---
 
@@ -120,18 +131,25 @@ Real coding interview problems to apply what you've learned in the readings.
 - See why hashing enables O(1) lookups
 - Understand collision strategies and performance
 
-**Phase 4: Practice (Practice Folder)**
+**Phase 4: Greedy Algorithms (Section 3)**
+- Learn when to use greedy approaches
+- Understand the greedy choice property
+- Know when greedy fails (counterexamples)
+- Practice proving greedy correctness
+
+**Phase 5: Practice (Practice Folder)**
 - Apply your knowledge to real interview problems
 - Practice explaining your approach
 - Solve edge cases correctly
 - Optimize for time and space
 
 **Next Topics Coming Soon:**
+- Dynamic programming fundamentals
 - String manipulation and techniques
 - Two-pointer and sliding window patterns
+- Graph algorithms and traversal
 - More complex algorithm patterns
 - Advanced data structure problems
-- Hash table implementation details
 
 ---
 
