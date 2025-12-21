@@ -33,6 +33,7 @@ interview_source/
 │   │   └── greedy_algorithms.md
 │   ├── practice/
 │   │   ├── apple_stocks.md
+│   │   ├── highest_product_of_3.md
 │   │   └── README.md
 │   └── README.md
 ├── Practice/
@@ -93,6 +94,7 @@ Real coding interview problems to apply what you've learned in the readings.
 - **Permutation Palindrome** - Character frequency and parity tracking with sets (Medium)
 - **Word Cloud Data** - Text processing and word frequency counting (Hard)
 - **Apple Stocks** - Greedy profit maximization (Medium)
+- **Highest Product of 3** - Greedy with multiple tracking variables (Medium)
 
 ### Coming Soon
 - More hash table problems (word pairs, anagrams, etc.)
