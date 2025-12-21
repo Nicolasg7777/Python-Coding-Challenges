@@ -79,14 +79,48 @@ Hash tables are one of the most important data structures because they provide O
 
 ---
 
+## Practice Problems
+
+### 1. Inflight Entertainment
+
+**File:** `Practice/inflight_entertainment.md`
+
+**Difficulty:** Medium
+
+**Topics:** Hash tables, sets, two-sum pattern, finding complements
+
+**Description:**
+Build an inflight entertainment system that finds two movies whose combined runtime equals the exact flight length.
+
+**Key Concepts:**
+- Using sets for O(1) lookups instead of nested loops
+- The complement pattern: find what's needed for a sum
+- Checking before adding to prevent self-matching
+- O(n) time, O(n) space solution
+- Why this is the classic "two-sum" interview pattern
+
+**What You'll Learn:**
+- The "two-sum" pattern appears everywhere in interviews
+- How sets enable constant-time membership checks
+- Why checking before adding matters for edge cases
+- How to recognize when hashing is the answer
+- Real-world applications: entertainment, shopping, scheduling
+
+**Difficulty Progression:**
+- **Basic:** Implement the set-based solution
+- **Intermediate:** Handle edge cases (empty, single movie, duplicates)
+- **Advanced:** Solve bonus problems (minimize wasted time, any number of movies)
+
+---
+
 ## How to Use This Section
 
 1. **Start with Hash Functions** - Understand the fundamentals
-2. **Learn about properties** - What makes a good hash function
-3. **Understand use cases** - Where hashing appears in real code
-4. **Study examples** - See how different hash functions work
-5. **Learn about collisions** - The inevitable problem and solutions
-6. **Practice concepts** - Test your understanding
+2. **Learn about Hash Tables** - See how they work and when to use them
+3. **Study the patterns** - Learn common hash table interview patterns
+4. **Read the practice problems** - See hash tables in action
+5. **Attempt the solutions** - Try before looking at answers
+6. **Test thoroughly** - Verify edge cases and complexity
 
 ---
 
@@ -98,10 +132,10 @@ This section builds on your understanding from previous sections:
 - **Section 2:** Hashing teaches you fast data structure techniques
 
 Future readings in this section will cover:
-- Hash Tables (the data structure)
-- Collision resolution strategies
-- Load factors and resizing
-- Hash table vs other data structures
+- Collision resolution strategies (in depth)
+- Load factors and resizing (in depth)
+- Hash table vs other data structures (in depth)
+- Advanced hashing techniques
 
 ---
 
@@ -173,5 +207,10 @@ You're ready to:
 - Understand when to use hash tables vs other data structures
 - Implement hash table patterns in your code
 
-Ready to tackle some practice problems that use these concepts!
+### Practice Problems
+
+Head to the **Practice** folder in this section to apply what you've learned:
+- **Inflight Entertainment** - Classic two-sum problem using sets for O(n) solution
+
+These problems will help you recognize hash table patterns and master this crucial interview topic!
 
