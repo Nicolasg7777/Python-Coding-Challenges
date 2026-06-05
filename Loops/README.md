@@ -12,7 +12,7 @@ There are two main types of loops:
 
 ## Challenges
 
-### 1. 🚗 Are We There Yet? (MEDIUM - 10 XP)
+### 1.  Are We There Yet? (MEDIUM - 10 XP)
 **File:** `01_are_we_there_yet.py`
 
 Learn the fundamentals of while loops by creating a program that keeps asking "Are we there yet?" until the user answers "Yes".
@@ -35,7 +35,7 @@ If you don't update the loop variable inside the loop, you'll create an infinite
 
 ---
 
-### 2. 🥳 New Year Countdown (MEDIUM - 10 XP)
+### 2.  New Year Countdown (MEDIUM - 10 XP)
 **File:** `02_new_year_countdown.py`
 
 Learn for loops and the range() function by creating a countdown from 10 to 1. This introduces a new type of loop that's perfect when you know exactly how many times to repeat!
@@ -59,7 +59,7 @@ Indenting the "Happy New Year!" message makes it print 10 times (once per loop).
 
 ---
 
-### 3. 🎲 Snake Eyes (MEDIUM - 10 XP)
+### 3.  Snake Eyes (MEDIUM - 10 XP)
 **File:** `03_snake_eyes.py`
 
 Master the critical skill of updating variables inside while loops by simulating dice rolls until you get "snake eyes" (two 1s). This challenge teaches THE MOST IMPORTANT while loop concept!
@@ -83,7 +83,7 @@ If you don't update the variables that affect the condition inside the loop, the
 
 ---
 
-### 4. ✳️ Asterisks (MEDIUM - 10 XP)
+### 4.  Asterisks (MEDIUM - 10 XP)
 **File:** `04_asterisks.py`
 
 Create a beautiful staircase pattern using for loops and a powerful Python feature: string multiplication! This challenge teaches you to use all three parameters of range() and demonstrates an elegant way to build patterns.
@@ -106,7 +106,7 @@ Instead of using nested loops or complex logic, Python lets you multiply strings
 
 ---
 
-### 5. 2️⃣ Sum of Squares (HARD - 15 XP)
+### 5. 2️ Sum of Squares (HARD - 15 XP)
 **File:** `05_sum_of_squares.py`
 
 Master the critical concept of **accumulation** by calculating the sum of squares from 1 to a user-provided number. This challenge teaches you how variables persist and grow across loop iterations.
@@ -175,5 +175,5 @@ As you work through these challenges, make sure you understand:
 
 ---
 
-Happy looping! 🔁
+Happy looping! 
 
